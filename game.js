@@ -14,5 +14,3 @@ function compareHands(player, computer) {
     else if (options[player] === computer) console.log("Player wins!");
     else console.log("Player loses :(");
 }
-
-compareHands(prompt("Enter choice: ", "rock, paper, scissors"), getComputerChoice());
